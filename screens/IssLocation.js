@@ -6,7 +6,9 @@ import {
     ImageBackground,
     StatusBar,
     SafeAreaView,
-    Image
+    Image,
+    Alert,
+    Platform
 } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import axios from "axios";
